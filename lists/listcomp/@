@@ -1,0 +1,6 @@
+def map(f,l):
+    return [f(x) for x in l]
+def square(p):
+    return p*p
+l =[1,2,3,4]
+print map(square,l)

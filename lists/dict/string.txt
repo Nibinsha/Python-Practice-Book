@@ -1,0 +1,8 @@
+the second argument to open is optional, 
+which defaults to when not specified.
+unix does not distinguish binary files 
+from text files but windows does. 
+on easiest way to read contents of a file.
+
+
+
