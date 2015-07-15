@@ -1,6 +1,7 @@
-a = []
-for i in range(3):
-    a.append([])
-    for j in None:
-        a[i].append(i+j)
-print a
+def array(x,y):
+    p = range(x)
+    q = range(y)
+    a = [[None for i in p]for j in q]
+    a[0][0] = 5
+    print a
+array(3,2)
